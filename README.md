@@ -149,19 +149,6 @@ sudo sysctl -w net.ipv4.ip_forward=1
 
 - If `run_first()` errors occur, check each wrapper (e.g., `bbr.py`) and use absolute paths.
 
----
-
-## Output Files
-
-All logs, plots, and PDF results will be saved in the specified `--data-dir`, such as:
-
-```
-output/sample_test/
-├── bbr_cc_run1.log
-├── cubic_cc_run1.log
-├── *.pdf
-└── *.png
-```
 
 ---
 
